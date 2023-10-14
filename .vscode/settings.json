@@ -1,0 +1,12 @@
+{
+    "cmake.buildDirectory": "${workspaceFolder}/build/vscode",
+    "cmake.sourceDirectory": "${workspaceFolder}",
+    "cmake.configureSettings": {
+        "OPENSSL_WITH_DEPRECATED_CIPHERS": "ON",
+        "OPENSSL_WITH_ZLIB": "ON",
+        "OPENSSL_WITHOUT_APPS": "ON",
+        "PAHO_WITH_OPENSSL": "ON",
+        "PAHO_WITHOUT_TEST_APPS": "OFF",
+        "ZLIB_WITHOUT_TEST_APPS": "ON"
+    }
+}
